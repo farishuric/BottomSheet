@@ -11,6 +11,8 @@
 		AF5B568928F4276B00F74EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B568828F4276B00F74EDF /* ContentView.swift */; };
 		AF5B568B28F4277200F74EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5B568A28F4277200F74EDF /* Assets.xcassets */; };
 		AF5B568E28F4277200F74EDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5B568D28F4277200F74EDF /* Preview Assets.xcassets */; };
+		AF5B569528F427CB00F74EDF /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B569428F427CB00F74EDF /* BottomSheetView.swift */; };
+		AF5B569728F44DE400F74EDF /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B569628F44DE400F74EDF /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AF5B568828F4276B00F74EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF5B568A28F4277200F74EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5B568D28F4277200F74EDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF5B569428F427CB00F74EDF /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		AF5B569628F44DE400F74EDF /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				AF5B568628F4276B00F74EDF /* BottomSheetApp.swift */,
 				AF5B568828F4276B00F74EDF /* ContentView.swift */,
+				AF5B569428F427CB00F74EDF /* BottomSheetView.swift */,
 				AF5B568A28F4277200F74EDF /* Assets.xcassets */,
 				AF5B568C28F4277200F74EDF /* Preview Content */,
+				AF5B569628F44DE400F74EDF /* RoundedCorner.swift */,
 			);
 			path = BottomSheet;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5B569728F44DE400F74EDF /* RoundedCorner.swift in Sources */,
 				AF5B568928F4276B00F74EDF /* ContentView.swift in Sources */,
+				AF5B569528F427CB00F74EDF /* BottomSheetView.swift in Sources */,
 				AF5B568728F4276B00F74EDF /* BottomSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
